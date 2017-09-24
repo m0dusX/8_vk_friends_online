@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+Checks online/offline status of users in friendlist and outputs their first and last names.
 
 # How to Install
 
