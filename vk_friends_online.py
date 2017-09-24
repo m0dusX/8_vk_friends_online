@@ -33,7 +33,7 @@ def output_friends_to_console(friends_online):
     for idx, user in enumerate(friends_online, 1):
         print("{}) {} {}".format(idx, user["first_name"], user["last_name"]))
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     login = get_user_login()
     password = get_user_password()
     friends_online = get_online_friends(login, password)
