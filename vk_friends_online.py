@@ -24,9 +24,12 @@ def get_online_friends(login, password):
         scope='friends'
     )
     api = vk.API(session)
-    friend_list = api.friends.get(fields="online nickname")
-    friends_online = [friend for friend in friend_list if friend["online"] == 1]
-    return friends_online
+    friend_list = api.friends.getOnline()
+    user_ids_string = ""
+    for friend in friend_list:
+        user_ids_string += "{},".format(friend)
+    all_info = api.users.get(user_ids=user_ids_string, fields="nickname")
+    return all_info
 
 
 def output_friends_to_console(friends_online):
