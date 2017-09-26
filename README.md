@@ -1,6 +1,18 @@
 # Watcher of Friends Online
 
-Checks online/offline status of users in friendlist and outputs their first and last names.
+This script works with VK.com site. It logins user to VK API and prints to console list of online users in friendlist of authenticated user.
+
+# Quickstart
+
+Place vk_friends_online.py somewhere. Then run command line, go to folder in which you moved script and execute it.
+
+Example of script launch on Linux, Python 3.5:
+
+```#!bash
+
+$ python vk_friends_online.py
+
+```
 
 # How to Install
 
