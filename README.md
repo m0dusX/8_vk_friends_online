@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-This script works with VK.com site. It logins user to VK API and prints to console list of online users in friendlist of authenticated user.
+This script works with VK.com site. It logins user to VK API and prints to console list of online users.
 
 # Quickstart
 
@@ -11,6 +11,17 @@ Example of script launch on Linux, Python 3.5:
 ```#!bash
 
 $ python vk_friends_online.py
+
+```
+
+Output data example:
+
+```#!bash
+
+Online users:
+1) Ольга Семиколенных
+2) Андрей Болдырев
+...
 
 ```
 
